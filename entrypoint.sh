@@ -9,6 +9,9 @@ readonly G_LOG_E='[ERROR]'
 main() {
     launch_xvfb
     launch_window_manager
+    # launch google chrome when everything is ready
+    google-chrome &
+
     run_vnc_server
 }
 

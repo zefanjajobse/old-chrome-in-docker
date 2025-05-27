@@ -22,7 +22,7 @@ RUN apt-get install -y wget
 RUN apt-get install -y wmctrl libcurl3 eterm
 
 COPY *.deb /
-RUN apt-get -y install ./chrome64_102.deb
+RUN apt-get -y install ./chrome64_48.deb
 
 COPY entrypoint.sh ./entrypoint.sh
 RUN chmod a+x ./entrypoint.sh
