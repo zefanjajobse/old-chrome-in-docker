@@ -10,7 +10,7 @@ Run a older versions of chrome in docker and connect to it with VNC
 # Build image
 sudo docker build -t chrome:48 .
 # Run image
-sudo docker run -p 5900:5900 -e VNC_SERVER_PASSWORD=password --user apps --privileged chrome:60
+sudo docker run -p 5900:5900 -e VNC_SERVER_PASSWORD=password --user apps --privileged chrome:48
 ```
 
 - View the container in a VNC viewer on 127.0.0.1:5900
